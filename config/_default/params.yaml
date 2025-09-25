@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'Distributed Systems Lab, ECE Department, Indian Institute of Science'
+    description: 'The website of Distributed Systems Lab in the ECE Department of IISc.'
+    twitter: 'cni_iisc'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -45,9 +45,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Distributes Systems Lab. This work is licensed under {license}'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

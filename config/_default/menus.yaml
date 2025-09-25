@@ -4,21 +4,43 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
-    weight: 10
-  - name: News
-    url: post
-    weight: 20
   - name: People
     url: people
-    weight: 30
-  - name: Events
-    url: event
-    weight: 40
+    weight: 10
   - name: Publications
     url: publication
+    weight: 20
+  - name: Research
+    identifier: research
+    weight: 30
+  - name: Projects
+    parent: research
+    url: projects
+    weight: 10
+  - name: Projects
+    parent: research
+    url: projects
+    weight: 20
+  - name: Talks
+    parent: research
+    url: talks
+    weight: 30
+  - name: Openings
+    url: openings
+    weight: 40
+  - name: Others
+    identifier: others
     weight: 50
-  - name: Contact
-    url: contact
-    weight: 60
+  - name: Suggested courses
+    parent: others
+    url: suggested-courses
+    weight: 10
+  - name: Writing advice
+    parent: others
+    url: writing-advice
+    weight: 20
+  - name: ECE Alumni Fund
+    parent: others
+    url: ece-alumni-fund
+    weight: 30
+

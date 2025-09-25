@@ -5,17 +5,17 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
       title: |
-        Wowchemy
-        Research Group
+        Distributed Systems Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The research work in the lab focuses on performance analysis and design of large-scale distributed systems connected by a network such as Internet, data center networks, public and private cloud. Our current focus is on computation over such networks, e.g. a heterogeneous compute cluster for large AI models. Some of our recent works are on the design of messaging protocol design for large scale computations over such networked compute nodes, scheduling of computation jobs over these clusters, pricing of the networked compute nodes for revenue maximization, and configuration and resource management to achieve optimal energy performance tradeoffs.
+
+        **Motivated students who are interested in pursuing a PhD working on cutting-edge research problems in the theory and systems research for communication networks may email us.**
   
   - block: collection
     content:
@@ -36,29 +36,9 @@ sections:
       view: card
       columns: '1'
   
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
   - block: collection
     content:
-      title: Latest Preprints
+      title: Latest Publications
       text: ""
       count: 5
       filters:
